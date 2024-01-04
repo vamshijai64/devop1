@@ -1,0 +1,12 @@
+public class depDao {
+	
+	public void getall(department d) {
+		
+		Session s=getConnection.getsession();
+		Query t=s.createQuery("from department");
+		List<department> q=t.list();
+		for (department dep : q) {
+			System.out.println(dep);
+		}
+		s.close();
+	}
