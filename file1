@@ -1,1 +1,1 @@
-images realted code
+wallpaper realted code
